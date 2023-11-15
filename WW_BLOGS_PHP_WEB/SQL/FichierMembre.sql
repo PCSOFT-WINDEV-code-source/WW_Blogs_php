@@ -1,0 +1,1 @@
+insert into Membre (idmembre,pseudo,email,session,motdepasse) values (1,'Administrateur','admin@email.com','MjAwNjA1MjQxMTIzMzYxNzAJMQ-Administrateur','demo');

@@ -1,0 +1,213 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pWWBlogs
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1446562d0027842b
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABx2Kk7rJqEZNZjMeDLoCIU21O0GAHtAWxQkwTtPd1OOZrbdooT8w0aE5p8RUi/kKXdrGFr6unV8NCzrzLtRGFvYPxF2XonUTll/PVC+xt35RpUpiS3sKSLfEZEJqIDEXA8p1W73tQRMCSIBgWwCLzh5pheOUUDgh8a7fLnCrzG
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : GenèreSession
+     procedure_id : 1461288529991348237
+     type_code : 15
+     code : |1+
+      // Résumé : Permet de générer un identifiant pour la session
+      // Syntaxe :
+      // GenèreSession ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure GenèreSession()
+      
+      	// Génère un identifiant de session
+      	dhDateHeureEnCours est une dateheure = datedujour() + heuresys()
+      	gsSession = dhDateHeureEnCours + tab + membre.IDMembre + "-" + membre.Pseudo
+      
+      
+     type : 458752
+   -
+     name : CréationDonnéesTest
+     internal_properties : CAAAAAgAAACgy0yagyQowZYG2+XKuou+AzDEPDIvmU5UrqDFJYASHxKHIUxpdqQF3OR2SFbCFWoI8JQlluLhY0TwoX6ciCxRA3QKAmR+czLK4h6mkLkqETKvlbHpskfkoA1IgodA8pvXPt2vMPWZ0sR3UjlApOXMWS87PsRZHEM8cZC62S3zIopUhv6LOlnEqM0f/dCw6ekHSu2Akzg=
+     procedure_id : 1821986416150435800
+     type_code : 15
+     code : |1+
+      // Résumé : Procédure qui crée les données de test dans les "tables" (fichiers de données) MySQL 
+      // Syntaxe :
+      //[ <Résultat> = ] CréationDonnéesTest (<sNomFichier>)
+      //
+      // Paramètres :
+      //	sNomFichier : Nom du fichier sql avec son extension contenant les requêtes à exécuter
+      // Valeur de retour :
+      // 	booléen : Faux si échec
+      //
+      
+      Procédure CréationDonnéesTest(sNomFichier)
+      
+      sFichierSQL est une chaine = ComplèteRep(frepparent(frepweb())) + completerep("SQL") + sNomFichier
+      sContenuSQL est une chaine = fChargeTexte(sFichierSQL)
+      //Si on ne récupère aucun contenu : inutile de continuer ...
+      si sContenuSQL ="" alors 
+      	erreur("Pas de données dans "+sFichierSQL)
+      	renvoyer faux
+      FIN
+      
+      CréerDonnéesTest est une source de données
+      
+      //On récupère chaque requête à exécuter
+      pour TOUTE CHAINE sReqSQL DE sContenuSQL SEPAREE PAR ";" + rc
+      	
+      	si sReqSQL <> "" et sReqSQL <> eot alors
+      		SI HExécuteRequêteSQL(CréerDonnéesTest, gcnxConnexionMySQL, hRequêteSansCorrection,sReqSQL) = Faux ALORS
+      			Erreur("Échec de "+sReqSQL,herreurinfo())
+      			RENVOYER Faux
+      		FIN
+      	fin
+      	
+      FIN
+      
+      renvoyer vrai
+     type : 458752
+   -
+     name : DateHeureEnLettre
+     procedure_id : 1965635845117364247
+     type_code : 15
+     code : |1-
+      PROCEDURE DateHeureEnLettre(dhDateHeure)
+      
+      dDateBillet est une date
+      hHeureBillet est une heure
+      dhDateHeureBillet est une dateheure
+      
+      dhDateHeureBillet  = dhDateHeure
+      dDateBillet = dhDateHeureBillet..PartieDate
+      hHeureBillet = dhDateHeureBillet..PartieHeure
+      
+      sDateHeureEnLettre est une chaine = "Le " +  DateVersJourEnLettre(dDateBillet) + " " + dDateBillet..Jour + " " +...
+      DateVersMoisEnLettre(dDateBillet) + " " + dDateBillet..Année +" à " +  HeureVersChaîne(hHeureBillet,"HH:MM")
+      
+      
+      renvoyer sDateHeureEnLettre
+     type : 458752
+   -
+     name : FormateMessage
+     internal_properties : CAAAAAgAAAAAaFUZRoe44Q45PpC1OrHu+ybFm+QNdR083CA0P6/m366mll4t3jwQ1qQ1wrJvY8lgse8KpbkZfLOmkqR8PmL0x/OIdaSN+QXE05W5V793T4C7zMjEf2B/H4znL5Rd2bz2PdZGy/7OiZmE76DhAwCp1JIYoX/w12xhns1FIuqG/9oURqYXxMmkUj8h18q2L0TAylMyGZVP9+rBxyPI80/aeKrCHvbj
+     procedure_id : 1965636742769735926
+     type_code : 15
+     code : |1-
+      // Résumé : Formate le message pour avoir les bons styles
+      // Syntaxe :
+      //[ <Résultat> = ] FormateMessage (<sMessage>)
+      //
+      // Paramètres :
+      //	sMessage : Chaîne  à formater
+      // Valeur de retour :
+      // 	Type indéterminé : Message formaté 
+      //
+      
+      Procédure FormateMessage(sMessage)
+      
+      // Remplace les retours chariots
+      sMessage = Remplace(sMessage, caract(10), "<BR>" )
+      
+      // Remplace les balises de taille de police
+      sMessage = Remplace(sMessage, "<SIZE=", "<FONT SIZE=")
+      sMessage = Remplace(sMessage, "SIZE>", "FONT>")
+      
+      // Remplace les balises de couleur de police
+      sMessage = Remplace(sMessage, "<COLOR=", "<FONT COLOR=")
+      sMessage = Remplace(sMessage, "COLOR>", "FONT>")
+      
+      // Citations
+      sMessage = Remplace(sMessage, "<QUOTE>", "<TABLE width=450 border=0 bgcolor=""#fafafa""><TR><TD style=""border:1px solid #cdcdcd""><p style=""font-size:9pt;word-wrap:break-word"">")
+      sMessage = Remplace(sMessage, "</QUOTE>", "</p></TD></TR></TABLE>")
+      
+      // Supprime les balises de script
+      nPosScript est un entier
+      POUR TOUTE POSITION nPosScript DE "<script" DANS sMessage AVEC SansCasse		
+      	nPosFinScript est un entier		
+      	nPosFinScript = Position(sMessage, "</script>", nPosScript, SansCasse)		
+      	sMessage[[nPosScript A nPosFinScript + 9]] = ""		
+      FIN
+      
+      // Style global
+      sMessage = "<span class=""TexteBillet"">" + sMessage + "</span>"	
+      
+      
+      RENVOYER sMessage
+     type : 458752
+   -
+     name : CouleurDuMois
+     procedure_id : 2060528792399482630
+     type_code : 15
+     code : |1+
+      // Résumé : Renvoie la couleur correspondante à un mois
+      // Syntaxe :
+      //[ <Résultat> = ] CouleurDuMois (<nMois> est entier)
+      //
+      // Paramètres :
+      //	nMois (entier) : <indiquez ici le rôle de nMois>
+      // Valeur de retour :
+      // 	entier : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE CouleurDuMois(nMois est un entier)
+      
+      nCouleur est un entier
+      
+      SELON nMois
+      	CAS 1
+      		nCouleur = RVB(64,163,240)
+      	CAS 2
+      		nCouleur = RVB(225,99,167)
+      	CAS 3
+      		nCouleur = RVB(202,204,44)
+      	CAS 4
+      		nCouleur = RVB(91,228,127)
+      	CAS 5
+      		nCouleur = RVB(228,91,91)
+      	CAS 6
+      		nCouleur = RVB(101,122,214)
+      	CAS 7
+      		nCouleur = RVB(191,214,101)
+      	CAS 8
+      		nCouleur = RVB(214,101,213)
+      	CAS 9
+      		nCouleur = RVB(240,144,64)
+      	CAS 10
+      		nCouleur = RVB(83,175,90)
+      	CAS 11
+      		nCouleur = RVB(96,158,157)
+      	CAS 12
+      		nCouleur = RVB(200,175,175)
+      	AUTRE CAS
+      		nCouleur = RVB(240,144,64)
+      FIN
+      
+      RENVOYER nCouleur
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_Collection1
+resources :
+ string_res :
+  identifier : 0x1fc51fe8006fcf21
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

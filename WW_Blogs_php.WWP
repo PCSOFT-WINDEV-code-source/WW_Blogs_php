@@ -1,0 +1,348 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WW_Blogs_php
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WW_Blogs_php
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : CAAAAAgAAABSxMDIpXtQzyCFNHwPdSJrVKnNcbfaIaC3urYf4VrSXpryKGHjEXbG9ghtOWrI13W/SMvdWChOQEtLa5szMEXJtIYeuutr3pYhkiYpdpcT4bNJ/V+nr8lRda2r2oNMFGe/TzzMt0JasYE4dNnKVHHXdVJPte8AqhuIOIXHUnYjgsUh4gX5tMrEGisajSPX9iDK0uUD2BQ1tgbwLsSjjQqSKEx/iDQ6RzOvSzm0CT27/zok5eEPLF5elkzr+W3tViefniyJclb1IcVqWgG0ZgQd8snvkfP7mUG4giiX3xek4XSsuM3Cq4HH1sb7XF3XDGGqHDcUIFtTOhuUENAXytjaN2bCh7ci5TVrdA2UhPX1Jx9qYNvkBihOfZkeJ7+uhkp/MvkuLhnt4M3Mon9X+OkbJzELPyi/7dWJgkFixpkPLjYbhQ77PmLG9T+ohRa0/rJzFbot5m2918HQOGEhGhwUESnASEo0scwnD9+2qZupxTaLMK161eD1hNtOHkDpR/epX+/sy0//8DgYwfDxz9xYBQRFm6pCT/xtTpRJF5rP4B3p3Ye3s3nHQI93awYAp24nffNywR5g6AcqHvu1JZp0fKOYqW4lcUBRH5ZQBmiOMTX3xyc2ZKZGnAiwPtVF8IlfyPRcX11fz9/gE8AmID0GNKodYuiTgcQsTBr2QkRXGB+GaBPDbjZTDv2OsPwvwL8RtQUetkmQognWxXCs9WzVE6Gd/fzWgqRQ+5D73Z1ToTZ/K4ThIlwQ6zIpJhEkPI8ypvVRhFH7nNxrnrkdOU/S/aBh/Th6vSIgBUBz5yeAdvUx11BZgPdDD265P3gdN/j44DOX4TYiwdtUlvCdppTSVloTbfAKRfWQr8aNMjJOXSzVMzHKxWyQ0Xi3MxtS37amVsN7b9VaLqvzQ6a0GVg+jdKOEXMSi5O+NGCIDC6yEmqHWSROGtA1fZewgk2ntHwQqGu3Odyt5uunvE/BOwFTX0lZZbaQ5QkEh8iyiBlQAH8rdX1oUhaRmqJ8ZHLLch8uTmaejRf8LrME0Q3FSo9UdOcDuUofot2LZ2LH1wRE3+gaBAbNooT2EAo3pwoAevN/4IUlzUefzwQX8SWs8jCuRKQc932QSNOgoIq4Xf9A7qRN6ivpply8zIC0O6z8f8Cu4LkXpxfl9Ngfepj0R+eMYZ899SjB+ZX/yYXzcMnDqdsY7vWDgmjh4dT1Riu9ZqwJHz9O1NDLYkOJEDpTVMcFiV67ewRkRbibv0mV2MFEqrdLwE3T59oiI2OTSfvIM7r2hA1peHBs4W9ZJ2nnTSKRo/sIKZeaRSA8HLX9EKwlKu8BlE/FJy2D5LSPrSiloUptbM/fZQgmjZh5aHi8rtaA6n/tpkN590IMbOHEKxf/2+HKS0G2YQMMZKz+QmifKdv+eUPgNHoUs72/sWSqqACPeFxyd/G51+rwaHl6LlnqeNc2n13lLpeBj7NNDOALhoe7lRBjg5eYI2B9r41CbkoDrZ9CunIHe0SgGr2G3ZZeoxGywmrRjCSuobQYHaoubYdLfqSbhmlI91pDfGUqj3Qt5ioWn+5CVmiNaNT0EsnLsz86Clf/9cnh7fOoQ1XCAHUeIceunk15vV3+DqmN5/O+dE8UsJM7Ok+YXN/3K0g0/IRvLfCqUSPLpH1BkT9m+n63W5l2Ur7p6zJgmc0ZQJHtzR0LpcTfaMmPB+PLjDkYN+ffSNdJwp4DW7FYfOfmp2x7djMQJeoUva4pkNbXy6ONXdphzyFFA9rYo1oylTK+f3cSChxnH5Mij9wZbdThn93iqNeP/lEY62/QUsbuIyNMROKYPdhx/Q86ohNSDdXrl4Ddh9Rkpstr9IKMMO6ckEHdkcaDuU0ozfBuhKf6NrK1rB2Wjs5ZvUp+vf2GUFlIezIW7+r56QpGQOy9EM7YSOqAoi0GkCdza+btB5vGS4lzeFlQfQqQdWn8l055XtwZnK08d1651y2esawvLe59VkWhOn6LH4kAzP/yzUbUFyRnVMtqdDLdhtPeG9crsXl14KUVxGpDUMlNrvdBGiMkYp7gGntF/TyUF9BryKJ3bxPGMCDYM9EzPMEXBNt/I8xELVVQWEYE+ftyu/AviCfRUA1h4pOPJ5LqF96cB8ef9ILEeYKn58Ffl5QjOZezXEHycGSspX2klz44DTbZLUk=
+ configurations :
+  -
+    name : WW_Blogs_PHP
+    internal_properties : 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
+    configuration_id : 4279309792087607641
+    type : 2
+    generation_name : WW_Blogs_php.wdl
+    version : {}
+    index_page_generation_name : PAGE_Accueil
+    language : 1
+    64bits : true
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAABVLXLgC0T1Gd1BSifT4e22sUd6FkxFl4ADG13bmgmUXAhtrGcIHPfEH3jXHSrFvS1hlW+mxuTCVKhW0g==
+ elements :
+  identifier : 0x4a51a46a0039ebb5
+  elements :
+   -
+     name : PAGE_Accueil
+     identifier : 0x46642a6a0000cc45
+     internal_properties : CAAAAAgAAACKgPKWFVLahVhCBYwv/klJtuettZ9R62pK7MhtarXfYeNjOR0GOmJbKRWPaSmnU0WPlw==
+     physical_name : .\PAGE_Accueil.WWH
+     type : 65538
+   -
+     name : PAGE_Login
+     identifier : 0x44478b300000a29c
+     internal_properties : CAAAAAgAAABv60dbaBUdzpfdoC+6qnb6RxBScjUcqOK29cOIX9XBf42T6/s7zf/2tGBapm5iHpJ6+g==
+     physical_name : .\PAGE_Login.wwh
+     type : 65538
+   -
+     name : REQ_BilletsDuJour
+     identifier : 0x444664920000c00a
+     internal_properties : CAAAAAgAAAC1kZ2BPhsTzJGLWkVwaTwsCVQQMAp/xil2hZ1xJZCCvkrWoLZ9g6kg4l5YoGCQaFigoA==
+     physical_name : .\REQ_BilletsDuJour.WDR
+     type : 5
+   -
+     name : Procédures globales de WW_Blogs_AWP_Navigateur
+     identifier : 0x4474249e000030a4
+     internal_properties : CAAAAAgAAADWvD5iQT52edz2SVATFa0Nbj1l7e1PoCdKCM1gx0hUjLS+gkTiZpYPnZkD/YV7B/nDQw==
+     physical_name : .\Procédures globales de WW_Blogs_AWP_Navigateur.wwn
+     type : 65539
+   -
+     name : REQ_DerniersBillets
+     identifier : 0x444669a50001904e
+     internal_properties : CAAAAAgAAACa8EJGZSKKlaiSVXx/csmRJleNhaWK28aiVqJ03Nk7lb9nlbF2irIr+SWfGZlXI5V/hw==
+     physical_name : .\REQ_DerniersBillets.WDR
+     type : 5
+   -
+     name : REQ_CommentairesBlog
+     identifier : 0x4c484870001ba559
+     internal_properties : CAAAAAgAAABi2FpOfSqCnbBqPSSXmx2Vmo1JOSoKnAiCPhA4Do6GWu4sDNpe4gqDAT2nEZFPK51n7w==
+     physical_name : .\REQ_CommentairesBlog.WDR
+     type : 5
+   -
+     name : REQ_NbCommentairessBillet
+     identifier : 0x4b54663e002aeddc
+     internal_properties : CAAAAAgAAAD0UtzY51zU1/6kY25Jbi+riKXXn6vQ7TmuMzIkkPUf8Qc7HclsnMA5y3dhXyfZoRfhYQ==
+     physical_name : .\REQ_NbCommentairessBillet.WDR
+     type : 5
+   -
+     name : PAGE_NouveauBlog
+     identifier : 0x44478d7c00019ae0
+     internal_properties : CAAAAAgAAABt6UVZZtNbBCkT0v349riorTpw8Dd+9w1T26UgO9k9k6VfIzP1CzGoeqYQ6KhYIJB4+A==
+     physical_name : .\PAGE_NouveauBlog.wwh
+     type : 65538
+   -
+     name : PAGE_Commentaires
+     identifier : 0x44474cc70002cf41
+     internal_properties : CAAAAAgAAADeRDbq2YauQQQO0fjrggXtYnMZ0ejn7FGOd0r60zFbrV+X5fFK/i6nZdHLNf3zjwHLSw==
+     physical_name : .\PAGE_Commentaires.wwh
+     type : 65538
+   -
+     name : PAGE_Billets
+     identifier : 0x44466d340002764a
+     internal_properties : CAAAAAgAAAAfe3crmMVtfsfNkD+qQsYaN7AyohWTEq+28XY/Bw0J1xXLk7OLve/mpJAK9r4yzsIKCg==
+     physical_name : .\PAGE_Billets.wwh
+     type : 65538
+   -
+     name : REQ_NbCommentairesBlog
+     identifier : 0x44474a370001cd1f
+     internal_properties : CAAAAAgAAAAqIBJ2tfK65fiiZWxPmDWFZnsltQnuf6e2OdR63qf1w2Gd/8dmmsI7yXVvSckH8+UvNw==
+     physical_name : .\REQ_NbCommentairesBlog.WDR
+     type : 5
+   -
+     name : REQ_NbBilletsBlog
+     identifier : 0x44474a0e00002e10
+     internal_properties : CAAAAAgAAAA7F2OnBEHp8svxtFMeCJ4SGxgmvgarPp+ipk7AGpv7xX+xjVnXaZMKmIR+ejq2QrYeJg==
+     physical_name : .\REQ_NbBilletsBlog.WDR
+     type : 5
+   -
+     name : PAGE_Blogs_Mobile
+     identifier : 0x4c98c4880020d73b
+     internal_properties : CAAAAAgAAABSqIqeLRoSzeDarTSH8rH57u+1bVyE1CZKiAj7AzlbRb8XxREu0vrzsW1XoWGfW023vw==
+     physical_name : .\PAGE_Blogs_Mobile.wwh
+     type : 65538
+   -
+     name : PAGE_Accueil_Mobile
+     identifier : 0x4ce3f915002229c6
+     internal_properties : CAAAAAgAAAD5VSFlQj93eN33tlEcIGhIeXo0ZFL0N52i1jzxdIsDJSvRCU3hZ5UMnpoE/IR8BPTcZA==
+     physical_name : .\PAGE_Accueil_Mobile.wwh
+     type : 65538
+   -
+     name : PAGE_CreationLogin
+     identifier : 0x44479f57000059fa
+     internal_properties : CAAAAAgAAAAzD2u/jPmx6sP5TEtmU0KWL1IeBs8mDwWOPzpt+irgAAQo0nTPcZsSkIx2QsI+Oq4WHg==
+     physical_name : .\PAGE_CreationLogin.wwh
+     type : 65538
+   -
+     name : REQ_Billets
+     identifier : 0x44466e900003c4cf
+     internal_properties : CAAAAAgAAACLh/OXFFHZgltBBIMuDA7qm5jWznZjqCO2cZqEpu+nSct1qS0HOWNaKBSOaiqmUkaOlg==
+     physical_name : .\REQ_Billets.WDR
+     type : 5
+   -
+     name : PAGE_NouveauBillet
+     identifier : 0x4447585d00001141
+     internal_properties : CAAAAAgAAAC4luA8C7D4Izrgv1oVJG9LfA0rc9rx2GiKvPCgKRvxFznZB0/gYIwFh7MtiwvFvTOdpQ==
+     physical_name : .\PAGE_NouveauBillet.wwh
+     type : 65538
+   -
+     name : MDL_WWBlog_Ambiance
+     identifier : 0x4c97916a001effd2
+     internal_properties : CAAAAAgAAABAPrjkw7jwKwI45+LNLWPP8PNPx/DHA6J2pbTlPOC8FCDODljoGES9T8s1gwP9hXtFzQ==
+     physical_name : .\MDL_WWBlog_Ambiance.wwt
+     type : 65541
+   -
+     name : PAGE_Commentaires_Mobile
+     identifier : 0x4c98c12c001fb672
+     internal_properties : CAAAAAgAAADzTyt/zLnxKgM5jAuml4Lu75Luphevypp2aYpqjr5ctEDsLriPsdvSUMw2ggL++u7WXg==
+     physical_name : .\PAGE_Commentaires_Mobile.wwh
+     type : 65538
+   -
+     name : PAGE_Billets_Mobile
+     identifier : 0x4c98b479001eb2d0
+     internal_properties : CAAAAAgAAABq4FK2dTJ6pbhiJawPYanxijkBicbeQuBO57bGIAyIYOgKNpCmWoJ7CTWvCYlHM6Vv9w==
+     physical_name : .\PAGE_Billets_Mobile.wwh
+     type : 65538
+   -
+     name : MDL_WWBlog_Mobile
+     identifier : 0x4c98a773001dd2cd
+     internal_properties : CAAAAAgAAAB60KLmxYKqtYiydZzf4qnRZncNxQ8pBlKjp0whhokLhU+XpSEWKlJL2UW/Ofn3g3Vf5w==
+     physical_name : .\MDL_WWBlog_Mobile.wwt
+     type : 65541
+   -
+     name : pWWBlogs
+     identifier : 0x444651de0000ae3b
+     internal_properties : CAAAAAgAAAAWfH6iAX42OZy2CZDT96n5lunlxQH7qc52qWX6rZL67sIYwBYiJlZP3VlDvUW7R7kDAw==
+     physical_name : .\pWWBlogs.wdg
+     type : 7
+   -
+     name : PAGE_Blogs
+     identifier : 0x44466f910004b0f6
+     internal_properties : CAAAAAgAAAB/21dLeCWNnqdtMN+K/6byY1bC6tOR0PhSmtdQZq7k1CiEtiAr3Q+GBDCqFp5SLqJq6g==
+     physical_name : .\PAGE_Blogs.wwh
+     type : 65538
+  other_elements :
+   -
+     physical_name : .\Description.rtf
+   -
+     physical_name : .\Description.gif
+  analysis : .\WW_Blogs_php.ana\WW_Blogs_php.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ common_generation_directory : true
+ wb_skin : 150 iStyle
+ wb_color_palette : Gentle & Light
+ site_type : 1
+ languages :
+  - fr-FR
+ wd_style_sheet : .\WW_Blogs_AWP.sty
+ site_map :
+  roots : []
+  orphans :
+   -
+     name : PAGE_Accueil_Mobile
+     parameters : []
+   -
+     name : PAGE_Billets_Mobile
+     parameters : []
+   -
+     name : PAGE_Commentaires_Mobile
+     parameters : []
+ url_rewriting :
+  internal_properties : CAAAAAgAAADkPzcUdUUS7wCiun+MCjqYH70RJdzkSv/nRvXZ3ENdikMa6bcHtsAH
+ code_elements :
+  internal_properties : CAAAAAgAAADoY8hx6bx/SOO8nveRqlMVksNqtFfjVacW27N4Z4OIhitbeNpTRrdjiX3QPGQFOPomcilwrl9maRQbZD14O4+u01R2UaiN09wbpcJ2l8C5nUw=
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADWWsLyrACOJihxd0BoM2Io7IIs28jx9K4g3vG5C+SQMoJFRaDy/y1FvO8tuWmWENOBxs4CQ+evZD0WYHmCB0AhOyvckP6NFcB2mdQSCl909qkpiRMKpuH/5vogFKfZluV/Xl0KlnB7MdCN5H+SyueYc/yqhtVC273Hjeu6tfEqeg5J1eRKJq9evay14ZXgvPcCp/aBzewantYNioxvO7w55oi2olcPhsjkLA==
+     code : |1+
+      
+      HCréationSiInexistant("*")
+      
+      gnIDBlog est un entier
+      gnIDMembre est un entier
+      gsSession est une chaine
+      
+      // Blog en cours
+      gnIDBlog = val(PageParamètre("blog"))
+      
+      // Login du membre
+      local
+      	si PageParamètre("do") = "bye" alors
+      		// Supprime la session en cours
+      		CookieEcrit("session", "")
+      		gsSession = ""
+      		gnIDMembre = 0
+      	sinon
+      		
+      		sSession est une chaine
+      		gsSession = cookielit("session")
+      		sSession = gsSession
+      		
+      		si sSession = "" alors
+      			// L'utilisateur n'est pas enregistré
+      			gnIDMembre = 0
+      		sinon
+      			sLogin est une chaine
+      			sLogin = extraitchaine(sSession, 2, "-")
+      			
+      			HLitRecherchePremier(Membre,Pseudo,slogin)
+      			si htrouve(Membre) ALORS
+      				
+      				sSession = Décrypte(extraitchaine(sSession, 1, "-"), "awp",crypteAucun,vrai)
+      				si val(extraitchaine(sSession, 2)) = membre.idmembre alors
+      					
+      					// Extrait la date et heure du début de session
+      					dDateHeureDébutSession est une dateheure = ExtraitChaîne(sSession, 1)
+      					dDateHeureEnCours est une dateheure = datedujour + heuresys
+      					
+      					// Si la session a plus d'une journée
+      					si val(gauche(DateHeureDifférence(dDateHeureDébutSession, dDateHeureEnCours),8)) > 0 ALORS
+      						// Sauvegarde
+      						CookieEcrit("session", "")				
+      						// Cela fait plus d'un jour, la session a expiré
+      						gnIDMembre = 0
+      						// Il faut se logger
+      						ScriptAffiche("login.awp?reason=expire&next=" + urldecode(PageParamètre("next")))
+      					sinon
+      						// On actualise la session
+      						GenèreSession()					
+      						gnIDMembre = membre.IDMembre
+      						membre.session = gsSession
+      						hmodifie(Membre)
+      						
+      						// Sauvegarde
+      						CookieEcrit("session", gsSession, 1)
+      					FIN
+      				sinon
+      					// Sauvegarde
+      					CookieEcrit("session", "")				
+      					gnIDMembre = 0	
+      					ScriptAffiche("login.awp?reason=invalid&next=" + urldecode(PageParamètre("next")))			
+      				fin
+      			sinon
+      				// Sauvegarde
+      				CookieEcrit("session", "")				
+      				gnIDMembre = 0	
+      				ScriptAffiche("login.awp?reason=notfound&next=" + urldecode(PageParamètre("next")))
+      			FIN
+      		FIN		
+      		
+      	FIN	
+      	
+      
+     type : 196608
+   -
+     code : |1-
+      gcnxConnexionMySQL est une connexion
+      
+      gnIDBlog est un entier
+      gnIDBillet est un entier
+      gsValeurDate est une chaine = ""
+      gnIDMembre est un entier
+      gsSession est une chaine
+      
+      gsServeur est une chaine
+      gsBD est une chaine
+      gsUser est une chaine
+      gsMdp est une chaine
+     type : 196620
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WW_Blogs_PHP
+     identifier : 0x4a51a46a0050ec32
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : WW_Blogs
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    explorer_type : pages
+    children :
+     -
+       name : Mobile
+       explorer_type : custom_folder
+       children :
+        -
+          name : PAGE_Billets_Mobile
+          explorer_type : element
+          type : 65538
+        -
+          name : PAGE_Commentaires_Mobile
+          explorer_type : element
+          type : 65538
+        -
+          name : PAGE_Blogs_Mobile
+          explorer_type : element
+          type : 65538
+        -
+          name : PAGE_Accueil_Mobile
+          explorer_type : element
+          type : 65538
+  -
+    name : Plans d'actions
+    explorer_type : custom_folder
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
